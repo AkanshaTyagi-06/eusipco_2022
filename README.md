@@ -28,22 +28,31 @@ This work is based on publicly available codes of OpenL3, Soundnet, MCCA, KMCCA 
 
 ### Multiview framework
 
-1. MCCA
+1. MCCA (Multiset CCA)
 
       Code link : (https://github.com/mvlearn/mvlearn/blob/main/mvlearn/embed/mcca.py)
       
       Manuscript :
+            Multi-view canonical correlation analysis
+            Rupnik, Jan and Shawe-Taylor, John
+            SiKDD 2010
   
-2. KMCCA
+2. KMCCA (Kernel MCCA)
 
       Code link : (https://github.com/mvlearn/mvlearn/blob/main/mvlearn/embed/kmcca.py)
       
       Manuscript :
+            Multi-view canonical correlation analysis
+            Rupnik, Jan and Shawe-Taylor, John
+            SiKDD 2010
   
-3. dMCCA
+3. dMCCA (Deep MCCA)
 
       Code link : (https://github.com/usc-sail/mica-deep-mcca?utm_source=catalyzex.com)
       
       Manuscript :
+            Multimodal Representation Learning using Deep Multiset Canonical Correlation
+            Krishna Somandepalli and Naveen Kumar and Ruchir Travadi and Shrikanth Narayanan
+            arXiv preprint arXiv:1904.01775, 2019
   
   
