@@ -55,10 +55,10 @@ After performing class-wise mixup per city the number of examples all cities bec
 
 Following steps should be followed for generating multi-view learning compatible views
 
-1. Create city-wise text files containing the names of the .wav files for a particular city.
-2. For each such text file, generate class-wise text file (for performing class-wise mixup) for each city.
-3. Perform class-wise mixup (seperate .py script for each class) 
-4. Finally, create a view matrix for each city consisting of train and test data corresponding to each city.
+1. Create city-wise text files containing the names of the .wav files for a particular city {citywise_train_txt.py, citywise_test_txt.py}
+2. For each such text file, generate class-wise text file (for performing class-wise mixup) for each city {classwise-txt_percity.py}
+3. Perform class-wise mixup {class-wise_mixup.py}
+4. Finally, create a view matrix for each city consisting of train and test data corresponding to each city {create-view.py}
 
 
 ### Multiview framework
