@@ -53,6 +53,13 @@ To satisy, the multi-view constraint we use class-wise mixup per city to make th
 
 After performing class-wise mixup per city the number of examples all cities become equal i.e 1320 (132 examples per class; total 10 classes). 
 
+Following steps should be followed for generating multi-view learning compatible views
+
+1. Create city-wise text files containing the names of the .wav files for a particular city.
+2. For each such text file, generate class-wise text file (for performing class-wise mixup) for each city.
+3. Perform class-wise mixup (seperate .py script for each class) 
+4. Finally, create a view matrix for each city consisting of train and test data corresponding to each city.
+
 
 ### Multiview framework
 
