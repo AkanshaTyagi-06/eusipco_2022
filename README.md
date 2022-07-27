@@ -6,7 +6,7 @@ This repository consists of the python implementation for our work accepted in E
 This work is based on publicly available codes of OpenL3, Soundnet, MCCA, KMCCA and dMCCA. Their respective links are provided as a part of this repository.
 
 ### Overview
-  DCASE datasets consists of data for different acoustic scenes collected across different cities. For instance DCASE 2019 contains data for 10 cities namely :Barcelona, Helsinki, London, Paris, Stockholm, Vienna, Lisbon, Lyon, Milan and Prague. DCASE 2018 data is a subset of that of DCASE 2019 and contains the data from the first 6 mentioned cities.
+  DCASE datasets consists of data for different acoustic scenes collected across different cities. For instance DCASE 2019 contains data for 10 cities namely :Barcelona (b), Helsinki (h), London (lo), Paris (pa), Stockholm (s), Vienna (v), Lisbon (li), Lyon (ly), Milan (m) and Prague (pr). DCASE 2018 data is a subset of that of DCASE 2019 and contains the data from the first 6 mentioned cities.
   
   The motivation of this work is to find out the recording location of an acoustic scene as a plausible intra-scene variation causing source and to provide a method to handle the same i.e reduce this variation. In this work, we have used varoius multi-view learning methods to reduce the effect of this variation by considering the multiple recording locations i.e recording cities of an acoustic scene as its multiple views.
   
