@@ -63,6 +63,8 @@ Following steps should be followed for generating multi-view learning compatible
 
 ### Multiview framework
 
+This work is built upon the three existing multi-view learning frameworks namely :
+
 1. MCCA (Multiset CCA)
 
       Code link : (https://github.com/mvlearn/mvlearn/blob/main/mvlearn/embed/mcca.py)
@@ -89,6 +91,9 @@ Following steps should be followed for generating multi-view learning compatible
             Multimodal Representation Learning using Deep Multiset Canonical Correlation
             Krishna Somandepalli and Naveen Kumar and Ruchir Travadi and Shrikanth Narayanan
             arXiv preprint arXiv:1904.01775, 2019
+            
+            
+  For, the application of the above three mentioned multi-view frameworks on the DCASE data please refer to **Multi-view_classification** folder
   
   
 
